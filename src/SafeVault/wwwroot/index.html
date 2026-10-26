@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SafeVault</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>SafeVault</h1>
+
+    <section>
+      <h2>Register</h2>
+      <form id="register-form" autocomplete="off">
+        <label>Username <input name="username" required minlength="3" maxlength="32" pattern="[A-Za-z0-9_.\-]+"></label>
+        <label>Email <input name="email" type="email" required maxlength="254"></label>
+        <label>Password <input name="password" type="password" required minlength="10" maxlength="128"></label>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Login</h2>
+      <form id="login-form" autocomplete="off">
+        <label>Username <input name="username" required maxlength="32"></label>
+        <label>Password <input name="password" type="password" required maxlength="128"></label>
+        <button type="submit">Login</button>
+      </form>
+      <button id="whoami" type="button">Who am I?</button>
+    </section>
+
+    <pre id="output" aria-live="polite"></pre>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6f8; color: #1d2330; }
+main { max-width: 520px; margin: 2rem auto; padding: 0 1rem; }
+section { background: #fff; padding: 1rem 1.25rem; margin-bottom: 1rem; border-radius: 8px; }
+label { display: block; margin: .5rem 0; }
+input { display: block; width: 100%; padding: .4rem; box-sizing: border-box; }
+button { margin-top: .5rem; padding: .45rem 1rem; }
+pre { background: #fff; padding: 1rem; border-radius: 8px; white-space: pre-wrap; }
